@@ -1,0 +1,21 @@
+:root {
+    --clr-primary: #0466C8;
+    --clr-primary2: #0353A4;
+    --clr-primary3: #023E7D;
+    --clr-primary4: #002855;
+    --clr-primary5: #001845;
+    --clr-second: #33415C;
+    --clr-second2: #5C677D;
+    --clr-second3: #7D8597;
+    --clr-second4: #979DAC;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--clr-primary);
+}
