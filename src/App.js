@@ -1,41 +1,44 @@
-import React from 'react';
-import './App.css';
-import { TodoCounter } from './TodoCounter';
-import { TodoSearch } from './TodoSearch';
-import { TodoList } from './TodoList';
-import { TodoItem } from './TodoItem';
-import { CreateTodoButton } from './CreateTodoButton';
+import React from "react";
+import "./App.css";
+import { Header } from "./Header";
+import { TodoCounter } from "./TodoCounter";
+import { TodoSearch } from "./TodoSearch";
+import { TodoList } from "./TodoList";
+import { TodoItem } from "./TodoItem";
+import { CreateTodoButton } from "./CreateTodoButton";
 
 const todos = [
   {
     id: 1,
-    text: 'Cortar cebolla',
+    text: "Cortar cebolla",
     compleetd: false,
   },
   {
     id: 2,
-    text: 'Tomar el curso de React',
+    text: "Tomar el curso de React",
     compleetd: false,
   },
   {
     id: 3,
-    text: 'Armar la base de datos para la pag de ejercicio',
+    text: "Armar la base de datos para la pag de ejercicio",
     compleetd: false,
   },
-]
+];
 
 function App() {
   return (
     <>
+      <Header />
       <TodoCounter />
-      <TodoSearch />
-      
-      <TodoList >
-        {todos.map((todo) => (
-          <TodoItem key={todo.id } text={todo.text}/>
-        ))}
-      </TodoList >
-      <CreateTodoButton />      
+      <main className="todoContainer">
+        <TodoSearch />
+        <TodoList>
+          {todos.map((todo) => (
+            <TodoItem key={todo.id} text={todo.text} />
+          ))}
+        </TodoList>
+        <CreateTodoButton />
+      </main>
     </>
   );
 }
