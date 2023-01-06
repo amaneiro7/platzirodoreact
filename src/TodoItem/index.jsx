@@ -1,7 +1,7 @@
 import React from 'react';
-import './style/TodoItem.css';
+import './TodoItem.css';
 
-function TodoItem(props) {
+function TodoItem(props) {    
     return (
         <li className="TodoItem">
             <span className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
