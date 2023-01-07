@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/platzitodoreact/static/css/main.9c620fd4.css",
-    "main.js": "/platzitodoreact/static/js/main.cc750b3c.js",
+    "main.css": "/platzitodoreact/static/css/main.fe85d11c.css",
+    "main.js": "/platzitodoreact/static/js/main.dda63596.js",
     "index.html": "/platzitodoreact/index.html",
-    "main.9c620fd4.css.map": "/platzitodoreact/static/css/main.9c620fd4.css.map",
-    "main.cc750b3c.js.map": "/platzitodoreact/static/js/main.cc750b3c.js.map"
+    "main.fe85d11c.css.map": "/platzitodoreact/static/css/main.fe85d11c.css.map",
+    "main.dda63596.js.map": "/platzitodoreact/static/js/main.dda63596.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c620fd4.css",
-    "static/js/main.cc750b3c.js"
+    "static/css/main.fe85d11c.css",
+    "static/js/main.dda63596.js"
   ]
 }
