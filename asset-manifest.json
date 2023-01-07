@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/platzitodoreact/static/css/main.9c620fd4.css",
+    "main.js": "/platzitodoreact/static/js/main.cc750b3c.js",
+    "index.html": "/platzitodoreact/index.html",
+    "main.9c620fd4.css.map": "/platzitodoreact/static/css/main.9c620fd4.css.map",
+    "main.cc750b3c.js.map": "/platzitodoreact/static/js/main.cc750b3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c620fd4.css",
+    "static/js/main.cc750b3c.js"
+  ]
+}
